@@ -1,0 +1,60 @@
+.name {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background: rgb(39, 39, 227);
+    color: white;
+    padding: 10px 10px 10px 70px; 
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: o;
+    background: rgb(39, 39, 227);
+}  
+/*this created a box for the navigation menus and a backround color*/
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+} 
+ /*this put navigation menus into blocks, changed the color of text, and added padding*/
+
+ .navigation a:hover {
+    background: rgb(74, 163, 193);
+} 
+/*this changes the background color when you hover over menu items*/
+
+.navigation a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1 px solid rgba(255, 255, 255,0.3);
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+/*this put navigation menus in middle of their boxes with borders*/
+
+.navigation li:last-of-type a {
+    border-bottom: none;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 25%;
+    height: 25%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover img {
+    transform: scale(1.2) translate(20%);
+}
