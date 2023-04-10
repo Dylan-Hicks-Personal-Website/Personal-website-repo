@@ -1,0 +1,1 @@
+const greeting="Congratulations!  You're the 100,000th visitor to this crappy web page!  You've won absolutely nothing!"
