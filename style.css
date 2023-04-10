@@ -58,3 +58,15 @@
 .image-container:hover img {
     transform: scale(1.2) translate(20%);
 }
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.label {
+    text-align: center;
+}
